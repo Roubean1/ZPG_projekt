@@ -1,14 +1,14 @@
-# ZPG projekt
+# ZPG Project
 
-Semestrální projekt do ZPG vytvořený v C++ a OpenGL. Projekt obsahuje několik 3D scén, práci s kamerou, světly, shadery, texturami, modely a jednoduchými animacemi.
+Semester project for ZPG created in C++ and OpenGL. The project contains several 3D scenes, camera controls, lights, shaders, textures, models, and simple animations.
 
-## Požadavky
+## Requirements
 
 - Visual Studio 2022
 - Windows 10/11
-- Platforma `x64`
+- `x64` platform
 
-Potřebné knihovny jsou přiložené přímo v projektu:
+All required libraries are included directly in the project:
 
 - GLEW
 - GLFW
@@ -16,32 +16,32 @@ Potřebné knihovny jsou přiložené přímo v projektu:
 - stb
 - tinyobjloader
 
-## Spuštění
+## How to Run
 
-1. Otevřete soubor `zpg_tok_novy.sln` ve Visual Studiu 2022.
-2. V horní liště zvolte konfiguraci `Debug` a platformu `x64`.
-3. Projekt sestavte pomocí `Build > Build Solution` nebo klávesovou zkratkou `Ctrl+Shift+B`.
-4. Spusťte projekt pomocí `Local Windows Debugger` nebo klávesou `F5`.
+1. Open the `zpg_tok_novy.sln` file in Visual Studio 2022.
+2. In the top toolbar, select the `Debug` configuration and the `x64` platform.
+3. Build the project using `Build > Build Solution` or the `Ctrl+Shift+B` shortcut.
+4. Run the project using `Local Windows Debugger` or the `F5` key.
 
-Po úspěšném spuštění se otevře OpenGL okno s aplikací.
+After a successful launch, an OpenGL window with the application will open.
 
-## Ovládání
+## Controls
 
-- `W`, `A`, `S`, `D` - pohyb kamery
-- pravé tlačítko myši + pohyb myší - rozhlížení kamerou
-- `1` až `6` - přepínání scén
-- levé tlačítko myši - výběr objektu / práce s objekty podle aktuální scény
-- `F` - zapnutí/vypnutí reflektoru ve scénách, kde je dostupný
-- `Delete` - smazání vybraného objektu
-- `M` - přesun vybraného objektu
-- `B` - zapnutí/vypnutí kreslení spline bodů
-- `N` - spuštění pohybu po spline
-- `C` - vymazání spline bodů
-- `Esc` - zrušení aktuální akce nebo ukončení aplikace
+- `W`, `A`, `S`, `D` - move the camera
+- right mouse button + mouse movement - look around with the camera
+- `1` to `6` - switch scenes
+- left mouse button - select an object / interact with objects depending on the current scene
+- `F` - toggle the spotlight in scenes where it is available
+- `Delete` - delete the selected object
+- `M` - move the selected object
+- `B` - enable/disable spline point drawing
+- `N` - start movement along the spline
+- `C` - clear spline points
+- `Esc` - cancel the current action or close the application
 
-## Scény
+## Scenes
 
-Projekt obsahuje tyto scény:
+The project contains the following scenes:
 
 - Triangle scene
 - Spheres scene
@@ -50,17 +50,17 @@ Projekt obsahuje tyto scény:
 - Meteor scene
 - Race track scene
 
-Scény se přepínají klávesami `1` až `6`.
+Scenes can be switched using keys `1` to `6`.
 
-## Struktura projektu
+## Project Structure
 
-- `zpg_tok_novy.sln` - solution soubor pro Visual Studio 2022
-- `zpg_tok_novy/` - zdrojové soubory projektu
-- `zpg_tok_novy/assets/` - 3D modely, textury a další assety
-- `zpg_tok_novy/shaders/` a `zpg_tok_novy/ShaderSource/` - shader soubory
-- `zpg_tok_novy/Libraries/` - přiložené externí knihovny
-- `zpg_tok_novy/Models/` - hlavičkové soubory s modely
+- `zpg_tok_novy.sln` - Visual Studio 2022 solution file
+- `zpg_tok_novy/` - project source files
+- `zpg_tok_novy/assets/` - 3D models, textures, and other assets
+- `zpg_tok_novy/shaders/` and `zpg_tok_novy/ShaderSource/` - shader files
+- `zpg_tok_novy/Libraries/` - included external libraries
+- `zpg_tok_novy/Models/` - header files with models
 
-## Poznámky
+## Notes
 
-Projekt je připravený hlavně pro spuštění přes Visual Studio 2022. Stačí otevřít `.sln` soubor, zkompilovat řešení a spustit aplikaci.
+The project is prepared mainly for running through Visual Studio 2022. Simply open the `.sln` file, build the solution, and run the application.
