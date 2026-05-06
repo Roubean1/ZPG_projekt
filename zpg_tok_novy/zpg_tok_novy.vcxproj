@@ -102,12 +102,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\zpg_tok_novy\zpg_tok_novy\Libraries\stb-master;..\..\zpg_tok_novy\zpg_tok_novy\Libraries\tinyobjloader;..\..\zpg_tok_novy\zpg_tok_novy\Libraries\glm-master;..\..\zpg_tok_novy\zpg_tok_novy\Libraries\glew-2.1.0\include;..\..\zpg_tok_novy\zpg_tok_novy\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ZPG_projekt\zpg_tok_novy\Libraries\stb-master;..\..\ZPG_projekt\zpg_tok_novy\Libraries\tinyobjloader;..\..\ZPG_projekt\zpg_tok_novy\Libraries\glm-master;..\..\ZPG_projekt\zpg_tok_novy\Libraries\glew-2.1.0\include;..\..\ZPG_projekt\zpg_tok_novy\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\zpg_tok_novy\zpg_tok_novy\Libraries\glew-2.1.0\lib\Release\x64;..\..\zpg_tok_novy\zpg_tok_novy\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\ZPG_projekt\zpg_tok_novy\Libraries\glew-2.1.0\lib\Release\x64;..\..\ZPG_projekt\zpg_tok_novy\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glu32.lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
