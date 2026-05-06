@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Transformation">
+      <UniqueIdentifier>{94ee5069-e4b0-4270-ae21-c6ad7609a260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Scene">
+      <UniqueIdentifier>{2205ec88-87b9-42f0-b4c1-29c2d0ac2736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Scene">
+      <UniqueIdentifier>{8d9e76d0-6c34-44ff-9933-4af57dc6cd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Transformation">
+      <UniqueIdentifier>{94919b07-dbf0-4417-8de4-fc7a4fd5d371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Observer">
+      <UniqueIdentifier>{08df80a8-b85f-423a-93c4-f50349740762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Observer">
+      <UniqueIdentifier>{ea986316-068d-41b1-b991-58ab010c1157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Core">
+      <UniqueIdentifier>{add5743e-4565-45a4-8978-272250ae0633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Utils">
+      <UniqueIdentifier>{f8df9210-67be-44b7-bdf8-f7487735d008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Light">
+      <UniqueIdentifier>{76db3203-4f91-4539-897d-4a268d97758e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Light">
+      <UniqueIdentifier>{f10bab1a-f27d-4b61-a8eb-540e642ce437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Core">
+      <UniqueIdentifier>{82394cd7-124b-40d8-bd2f-19b7d4096d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SpheresScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystemScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeTransform.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Translate.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Hlavičkové soubory\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Hlavičkové soubory\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObject.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Include.h">
+      <Filter>Hlavičkové soubory\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMovement.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicTranslation.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRotation.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FireflyLight.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTransformation.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearPathMovement.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeteorScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurveMovement.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierSplineMovement.h">
+      <Filter>Hlavičkové soubory\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceTrackScene.h">
+      <Filter>Hlavičkové soubory\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MeteorType.h">
+      <Filter>Hlavičkové soubory\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpheresScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystemScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeTransform.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotate.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Translate.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Zdrojové soubory\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Zdrojové soubory\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableObject.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.h">
+      <Filter>Hlavičkové soubory\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSources.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMovement.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicTranslation.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRotation.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="LightType.h">
+      <Filter>Hlavičkové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AmbientLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FireflyLight.cpp">
+      <Filter>Zdrojové soubory\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTransformation.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeteorScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearPathMovement.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurveMovement.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierSplineMovement.cpp">
+      <Filter>Zdrojové soubory\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceTrackScene.cpp">
+      <Filter>Zdrojové soubory\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteor.cpp">
+      <Filter>Zdrojové soubory\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

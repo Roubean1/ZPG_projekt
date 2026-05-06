@@ -1,0 +1,53 @@
+﻿  Action.h
+  AmbientLight.cpp
+  Application.cpp
+  BezierCurveMovement.cpp
+  BezierSplineMovement.cpp
+C:\Users\ktoka\source\repos\zpg_tok_clean\zpg_tok_novy\BezierSplineMovement.cpp(62,22): warning C4267: inicializování: Převod z: size_t na: int, může dojít ke ztrátě dat.
+C:\Users\ktoka\source\repos\zpg_tok_clean\zpg_tok_novy\BezierSplineMovement.cpp(71,26): warning C4244: =: double se převádí na float; může dojít ke ztrátě dat.
+  Camera.cpp
+  CompositeTransform.cpp
+  CustomTransformation.cpp
+  DirectionalLight.cpp
+  DrawableObject.cpp
+  DynamicRotation.cpp
+  DynamicTranslation.cpp
+  FireflyLight.cpp
+  FlashLight.cpp
+  ForestScene.cpp
+  Light.cpp
+  LightType.h
+  LinearPathMovement.cpp
+  main.cpp
+  Material.cpp
+  Generování kódu...
+  Kompilování...
+  Meteor.cpp
+  MeteorScene.cpp
+  Model.cpp
+  ModelLoader.cpp
+  Observer.cpp
+  PointLight.cpp
+  RaceTrackScene.cpp
+  RandomMovement.cpp
+  Rotate.cpp
+  Scale.cpp
+  Scene.cpp
+  Shader.cpp
+  ShaderManager.cpp
+  ShaderProgram.cpp
+  ShaderSources.cpp
+  Skybox.cpp
+  SolarSystemScene.cpp
+  SpheresScene.cpp
+  SpotLight.cpp
+  Subject.cpp
+  Generování kódu...
+  Kompilování...
+  Texture.cpp
+  Transform.cpp
+  Translate.cpp
+  TriangleScene.cpp
+  Generování kódu...
+LINK : warning LNK4098: Výchozí knihovna MSVCRT je v konfliktu s použitím jiných knihoven. Použijte /NODEFAULTLIB:library.
+  zpg_tok_novy.vcxproj -> C:\Users\ktoka\source\repos\zpg_tok_clean\x64\Debug\zpg_tok_novy.exe
